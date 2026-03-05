@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Design Co.</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <article>
+  <header role="banner">
+    <nav role="navigation">
+      <ul>
+        <img src="logo.png" alt="Company Logo" width="40" height="25">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  </article>
+
+  <main>
+    <div class="hero-section">
+      <div class="hero-text">
+        <h1 style ="font-size:40px">Welcome to Accessible Design Co.!</h1>
+        <p style ="font-size:40px">Don't miss this amazoning tool.  </p>
+        <button type="button">Click Here!</button>
+      </div>
+    </div>
+
+        <!-- About Us section -->
+        <div class="about-section">
+            <div class="about">
+                <h2 class="about-heading">About <span>Us</span></h2>
+                <p class="about-text">Accessible Design Co. is designed apps to convenience people in daily life.!</p>
+                <p>If you want to know more, head over to our about page!</p>
+                <div class="about-link">
+                    <a href="#">Take me there</a>
+                </div>
+            </div>
+        </div>
+
+      <!-- Services section -->
+      <div class="container">
+        <div class="item1">
+          <h2>iOS App Development</h2>
+          <p>With programming languages such as Swift, React Native, and Java, we build custom iOS mobile apps that work seamlessly across various iOS devices.</p>
+        </div>
+
+        <div class="item2">
+          <h2>Android App Development</h2>
+          <p>We build Android mobile applications with rich user experiences and intuitive user interfaces, while offering a competitive edge with top-notch features.</p>
+        </div>
+
+        <div class="item3">
+          <h2>Cross-Platform (React Native/Flutter)</h2>
+          <p>We build high-performing mobile applications with native like experiences using Flutter and React Native that run across Android and iOS using a single codebase.</p>
+        </div>
+
+      </div>
+
+  <div class="contact-form">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required aria-invalid="false">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" aria-describedby="emailHelp" required>
+    <small id="emailHelp">We'll never share your email with anyone else.</small>
+
+    <label for="Subject">Subject:</label>
+    <input type="text" id="Subject" name="subject" required aria-invalid="false">    
+
+    <label for="Message">Message:</label>
+    <input type="text" id="message" name="message" required aria-invalid="false">  
+
+    <button role="button" aria-label="Click to submit the form">Submit</button>
+    <div role="alert" aria-live="polite">Form submitted successfully!</div>
+  </form>
+</div>
+
+  <main>
+
+
+  </main>
+  <div class="footer-section">
+  <footer>
+    <p>@ 2026 Accessible Design Co.</p>
+    <p>Follow us: <a href="#">Facebook</a> <a href="#">Instagram</a> </p>
+    <p>Author: Shelley Lee</p>
+    <p>Street Address (include Apt/Ste #)</p>
+    <p>City, State abbreviation, and ZIP Code</p>
+    <p><a href="#">hege@example.com</a></p>
+  </footer>
+</div>
+
+</body>
+
+</html>
